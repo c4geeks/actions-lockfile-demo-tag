@@ -1,0 +1,7 @@
+name: "Tag action"
+description: Prints its version so ref moves are visible in workflow logs
+runs:
+  using: composite
+  steps:
+    - run: echo "tag-action version v1.0.0"
+      shell: bash
